@@ -1,0 +1,36 @@
+/* Footer.css */
+.footer {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 20px;
+  text-align: center;
+  position: relative; /* Relative positioning */
+  margin-top: 20px; /* Add margin to separate it from content */
+  width: 100%; /* Full width */
+}
+
+/* Ensure the container that wraps your main content is not fixed or absolute */
+.container {
+  min-height: calc(100vh - 60px); /* Adjust the height based on your footer height */
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content {
+  max-width: 800px; /* Limit the width of the content */
+  margin: 0 auto; /* Center the content */
+}
+
+.social-icons {
+  margin-top: 10px; /* Space above the icons */
+}
+
+.social-icons a {
+  margin: 0 10px; /* Space between icons */
+  color: #616060; /* Icon color */
+  font-size: 24px; /* Icon size */
+  text-decoration: none; /* Remove underline */
+}
+
+.social-icons a:hover {
+  color: #ef821c; /* Change color on hover */
+}
